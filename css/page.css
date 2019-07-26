@@ -25,7 +25,7 @@ body {
     "nav footer"
     "nav legal"
 ;
-    height: 100vh;
+    height: 1000px;
     font-size: 12px;
     font-family: Sans-Serif;
 }
@@ -93,6 +93,7 @@ main {
 
 .side_nav>h3 {
     padding: 12px;
+
 }
 
 
@@ -110,20 +111,22 @@ main {
 }
 
 .article_text {
-
+    /*border: 1px solid peru;*/
+    padding-right: 2.5em;
 }
 
 
 .article_text>h2 {
     color: teal;
-    margin-top: 1em;
     margin-bottom: 1em;
+    font-size: 2em;
 }
 
 
 .ads {
     display: flex;
     flex-direction: column;
+    /*border: 1px solid chocolate;*/
 }
 
 .ad_1 {
@@ -148,7 +151,6 @@ main {
     display: flex;
     list-style: none;
     margin: 0 auto;
-
 }
 .page_indicator a {
     padding: 1em;
