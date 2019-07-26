@@ -157,6 +157,10 @@ main {
     text-decoration: none;
 }
 
+.page_indicator a:visited {
+    color: black;
+}
+
 .page_indicator a:hover {
     background: black;
     color: white;
@@ -168,17 +172,6 @@ main {
     /*border: 1px solid aqua;*/
     align-self: center;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* true_footer Styling */
 
