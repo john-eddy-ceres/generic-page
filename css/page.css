@@ -15,7 +15,7 @@
 }
 
 body {
-    background-color: cyan;
+    background: black;
     display: grid;
     grid-template-rows: 2em 1fr 4.5em 2em;
     grid-template-columns: 170px 1fr;
