@@ -91,6 +91,17 @@ main {
     display:inline-block;
 }
 
+.side_nav a:visited {
+    color: black;
+}
+
+.side_nav a:hover {
+    background: black;
+    color: white;
+
+}
+
+
 .side_nav>h3 {
     padding: 12px;
 
