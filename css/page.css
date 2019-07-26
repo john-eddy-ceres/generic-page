@@ -26,6 +26,8 @@ body {
     "nav legal"
 ;
     height: 100vh;
+    font-size: 12px;
+    font-family: Sans-Serif;
 }
 
 header {
@@ -61,11 +63,23 @@ main {
     display: flex;
     color: white;
     list-style: none;
-
+    align-items: center;
+    height: 2em;
 }
 
 .top_nav>li {
-    padding: .5em;
+    /*padding: .5em;*/
 
+
+}
+
+.top_nav a {
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+}
+
+.top_nav a:hover {
+    background: var(--mediumgray);
 }
 
