@@ -1,0 +1,71 @@
+:root {
+    --lightgray: #ECECEC;
+    --mediumgray: #535353;
+    --darkgray: #262626;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: cyan;
+    display: grid;
+    grid-template-rows: 2em 1fr 4.5em 2em;
+    grid-template-columns: 20% 1fr;
+    grid-template-areas:
+    "header header"
+    "nav main"
+    "nav footer"
+    "nav legal"
+;
+    height: 100vh;
+}
+
+header {
+    grid-area: header;
+    background-color: black;
+
+}
+
+nav {
+    grid-area: nav;
+    background-color: var(--lightgray)
+}
+
+main {
+    grid-area: main;
+    background-color: white;
+}
+
+.true_footer {
+    grid-area: footer;
+    background-color:var(--mediumgray);
+}
+
+.legal {
+    grid-area: legal;
+    background-color: var(--darkgray);
+}
+
+
+
+/*Header Styling*/
+.top_nav {
+    display: flex;
+    color: white;
+    list-style: none;
+
+}
+
+.top_nav>li {
+    padding: .5em;
+
+}
+
