@@ -27,7 +27,7 @@ body {
 ;
     height: 1000px;
     font-size: 12px;
-    font-family: Sans-Serif;
+    font-family: Roboto, sans-serif;
 }
 
 header {
@@ -98,6 +98,7 @@ main {
 .side_nav a:hover {
     background: black;
     color: white;
+    width: 14em;
 
 }
 
